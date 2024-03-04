@@ -28,11 +28,20 @@
                 text-align: center;
             }
 
+            p{
+                margin-bottom: 20px;
+            }
+
             /*Efeito Parallax
             -----------------------------*/
-            .caixa1, .caixa2{
-                border: 1px solid red;
+            .caixa1, .caixa2, .caixa3, .caixa4{
+                position: relative;
                 height: 100%;
+                opacity: 0.7;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
             }
             
             .caixa1{
@@ -43,22 +52,78 @@
                 background-image: url(imagens/imagem2.jpg);
             }
 
+            .caixa3{
+                background-image: url(imagens/imagem3.jpg);
+            }
+
+            .caixa4{
+                background-image: url(imagens/imagem4.jpg);
+            }
+
+            .conteudo-titulo{
+                position: absolute;
+                left: 0%;
+                top: 45%;
+                width: 100%;
+                text-align: center;
+            }
+
+            .conteudo-titulo span.titulo{
+                color: #fff;
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+            }
+
         </style>
 
     </head>
     <body>
 
         <div class="caixa1">
-            Caixa 1
+            <div class="conteudo-titulo">
+                <span class="titulo">passeio de balões</span>
+            </div>
         </div>
 
         <div class="conteudo">
             <h3>Parallax</h3>
-            <p>Aliquam leo ligula, ullamcorper nec dui a, pretium viverra mi. Nulla nisi dui, tristique rhoncus lacus ut. </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper libero eget accumsan hendrerit. Nulla id egestas lectus. Praesent condimentum, ligula vel consectetur mattis, leo sem pulvinar nibh, nec varius nisl ex in felis. Donec ornare pulvinar condimentum. Aenean tempus nisl et dolor hendrerit, ac consequat velit fringilla. Etiam at molestie libero. Aenean elit turpis, dictum sed dictum viverra, ornare ac libero. Nam tristique, ante at varius facilisis, diam nisl pharetra arcu, vitae lobortis lectus massa vel odio. Curabitur laoreet felis metus, quis congue est porta nec.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper libero eget accumsan hendrerit. Nulla id egestas lectus. Praesent condimentum, ligula vel consectetur mattis, leo sem pulvinar nibh, nec varius nisl ex in felis. Donec ornare pulvinar condimentum. Aenean tempus nisl et dolor hendrerit, ac consequat velit fringilla. Etiam at molestie libero. Aenean elit turpis, dictum sed dictum viverra, ornare ac libero. Nam tristique, ante at varius facilisis, diam nisl pharetra arcu, vitae lobortis lectus massa vel odio. Curabitur laoreet felis metus, quis congue est porta nec.
+            </p>
         </div>
 
         <div class="caixa2">
-            Caixa 2
+            <div class="conteudo-titulo">
+                <span class="titulo">pegando a estrada</span>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h3>Parallax</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper libero eget accumsan hendrerit. Nulla id egestas lectus. Praesent condimentum, ligula vel consectetur mattis, leo sem pulvinar nibh, nec varius nisl ex in felis. Donec ornare pulvinar condimentum. Aenean tempus nisl et dolor hendrerit, ac consequat velit fringilla. Etiam at molestie libero. Aenean elit turpis, dictum sed dictum viverra, ornare ac libero. Nam tristique, ante at varius facilisis, diam nisl pharetra arcu, vitae lobortis lectus massa vel odio. Curabitur laoreet felis metus, quis congue est porta nec.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper libero eget accumsan hendrerit. Nulla id egestas lectus. Praesent condimentum, ligula vel consectetur mattis, leo sem pulvinar nibh, nec varius nisl ex in felis. Donec ornare pulvinar condimentum. Aenean tempus nisl et dolor hendrerit, ac consequat velit fringilla. Etiam at molestie libero. Aenean elit turpis, dictum sed dictum viverra, ornare ac libero. Nam tristique, ante at varius facilisis, diam nisl pharetra arcu, vitae lobortis lectus massa vel odio. Curabitur laoreet felis metus, quis congue est porta nec.
+            </p>
+        </div>
+
+        <div class="caixa3">
+            <div class="conteudo-titulo">
+                <span class="titulo">por do sol</span>
+            </div>
+        </div>
+
+        <div class="caixa4">
+            <div class="conteudo-titulo">
+                <span class="titulo">montanhas</span>
+            </div>
         </div>
 
     </body>
