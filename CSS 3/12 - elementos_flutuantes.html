@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Elementos flutuantes</title>
+
+        <style type="text/css">
+
+            #principal{
+                border: 5px solid red;
+                background: green;
+            }
+
+            .conteudo{
+                background: blue;
+                border: 1px solid gray;
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+                float: right;
+            }
+
+            /*
+            .conteudo1{
+                background: red;
+                border: 1px solid gray;
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+                float: left;
+            }
+            */
+
+            .conteudo-zero{
+                background: red;
+                border: 1px solid gray;
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+            }
+
+            .clear{
+                clear: both;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="principal">
+            
+            <div class="conteudo">
+                Conteúdo 1
+            </div>
+
+            <div class="conteudo">
+                Conteúdo 2
+            </div>
+
+            <div class="conteudo">
+                Conteúdo 3
+            </div>
+
+            <p class="clear">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices, leo eu sollicitudin accumsan, mauris ante tristique dolor, in dapibus libero nisl sit amet nisi. Morbi ac libero fermentum, bibendum metus varius, venenatis ante. Quisque rhoncus accumsan consequat. Integer malesuada hendrerit purus eget facilisis. Integer ornare lacus sed augue sagittis imperdiet. Praesent convallis, orci ut mollis condimentum, nisi quam blandit mauris, ut vestibulum mauris massa in lacus. Morbi eget pharetra ex. Aenean sit amet magna massa. Etiam non purus a magna volutpat tincidunt a eu enim.
+            </p>
+
+            <!-- <div class="clear">aa</div> -->
+
+        </div>
+
+    </body>
+</html>

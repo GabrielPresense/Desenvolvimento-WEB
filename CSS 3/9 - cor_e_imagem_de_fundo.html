@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cor e imagem de fundo</title>
+
+        <style type="text/css">
+            /*
+            .fundo {
+                background: blue;
+            }
+            */
+
+            h1 {
+                /*background-image: url(imagens_aulas/yoshi.png);*/
+
+                /*no-repeat, repeat, repeat-x, repeat-y*/
+                background-repeat: repeat-x;
+
+                /*fixed, scroll*/
+                background-attachment: scroll;
+
+                /*primeiro valor, horizontal: left, center, right
+                  segundo valor, vertical: top, center, bottom
+                  left center, left top, right bottom */
+                background-position: center center;
+            }
+
+            .fundo {
+                background: blue url(imagens_aulas/yoshi.png) repeat-x scroll top;
+            }   
+
+        </style>
+
+    </head>
+    <body class="fundo">
+
+            <h1>
+                Conteúdo de título 1<br/>
+            </h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut lectus ac urna condimentum tempus. Mauris nec congue augue, vel accumsan mi. Aenean at augue ac turpis cursus lobortis in vel ex. In sed pellentesque justo. Cras id vestibulum nisl.</p>
+
+            <br><br><br><br><br><br>
+            <br><br><br><br><br><br>
+            <br><br><br><br><br><br>
+            <br><br><br><br><br><br>
+            <br><br><br><br><br><br>
+            <br><br><br><br><br><br>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut lectus ac urna condimentum tempus. Mauris nec congue augue, vel accumsan mi. Aenean at augue ac turpis cursus lobortis in vel ex. In sed pellentesque justo. Cras id vestibulum nisl.</p>
+
+    </body>
+</html>
